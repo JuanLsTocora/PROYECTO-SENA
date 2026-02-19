@@ -1,7 +1,18 @@
-body {
+body{
+
+    background-image: url("/delfin_proyecto/img/fondo.jpg");
+    
+    background-size: cover;      /* ocupa toda la pantalla */
+    
+    background-position: center; /* centra la imagen */
+    
+    background-repeat: no-repeat; /* evita que se repita */
+    
+    background-attachment: fixed; /* efecto fijo al hacer scroll */
+    
     margin: 0;
+    
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
 }
 
 nav {
@@ -43,7 +54,7 @@ section {
     justify-content: center;
     align-items: center;
     font-size: 1.1em;
-    color: rgb(203, 241, 180);
+    color: rgb(0, 0, 0);
     flex-direction: column;
     padding: 40px 0;     /* Añade espacio vertical */
     box-sizing: border-box;
@@ -51,7 +62,7 @@ section {
 }
 
 section:nth-child(1) {
-    background-color: #3498db;
+    background-color: #645231a5;
 }
 
 section:nth-child(2) {
@@ -59,7 +70,7 @@ section:nth-child(2) {
 }
 
 section:nth-child(3) {
-    background-color: #2ecc71;
+    background-color: #000000;
 }
 
 section:nth-child(4) {
@@ -89,8 +100,8 @@ section:nth-child(5) {
 
 .card button {
     margin-top: 10px;
-    background: #007bff;
-    color: #9ecdcfd4;
+    background: #a6a18d;
+    color: #000000d4;
     border: none;
     padding: 8px 12px;
     border-radius: none6px;
@@ -165,3 +176,4 @@ p {
         font-size: 0.85rem;
     }
 }
+
