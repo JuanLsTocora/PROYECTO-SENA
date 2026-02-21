@@ -5,6 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barranquilla</title>
     <link rel="stylesheet" href="./css/style.css">
+    <style>
+    body {
+        background-color: #ffffff;
+        margin: 0;
+        font-family: 'Bahnschrift', sans-serif;
+    }
+    .navbar {
+        background-color: #690969;
+        padding: 10px 0;
+    }
+    .navbar ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+    .navbar ul li a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        padding: 10px 20px;
+        font-weight: bold;
+    }
+    .card img {
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        border-left: 10px solid #ffffff; 
+        border-right: 10px solid #fbfbfb;
+        border-top: none;
+        border-bottom: none;
+    }
+    .sticky-section {
+        text-align: center;
+        padding: 50px 20px;
+    }
+    h1 {
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+    }
+    .card {
+        background-color: rgb(247, 247, 247);
+        padding: 20px;
+        border-radius: 15px;
+        display: inline-block;
+        margin-top: 20px;
+    }
+    button {
+        background-color: #ff0000;
+        color: rgb(0, 0, 0);
+        border: none;
+        padding: 10px 20px;
+        margin-top: 15px;
+        cursor: pointer;
+        border-radius: 5px;
+    }</style>
 </head>
 <body>
     <nav class="navbar">
@@ -41,7 +99,6 @@
 
     <script src="./js/main.js"></script>
     <script>
-        // Exponer el dialogo como modal para mantener compatibilidad con onclick inline
         const _m = document.getElementById('modal');
         if (_m) window.modal = _m;
     </script>
